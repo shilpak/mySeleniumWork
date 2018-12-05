@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.jaavfortesters.domainobject&apos; to &apos;WebdriverTest/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;WebdriverTest&apos;&#x0D;&#x0A;- Destination element: &apos;WebdriverTest/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;WebdriverTest/src/test/java/com.jaavfortesters.domainobject&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="/src\/main\/java" element1="/src\/test\/java&lt;com.jaavfortesters.domainobject" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1530195115398" version="1.0"/>
+</session>

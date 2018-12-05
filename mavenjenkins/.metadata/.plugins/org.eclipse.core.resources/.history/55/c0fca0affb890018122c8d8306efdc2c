@@ -1,0 +1,36 @@
+package example;
+
+import static org.testng.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.junit.Test;
+
+import com.javafortesters.domainentities.User;
+
+public class excerciseHashmap {
+	
+	@Test
+	public void createAndManipulatehashmap() {
+		
+		Map<String,String> map = new HashMap<>();
+		
+		map.put("key1", "value1"); 
+		map.put("key2", "value1"); 
+		map.put("key3", "value3");
+
+		
+		Set<String> values = (Set<String>) map.values();
+		Set<String> keys = map.keySet();
+
+		
+		System.out.println(values);
+		System.out.println(keys);
+	}
+
+}

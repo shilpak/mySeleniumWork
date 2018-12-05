@@ -1,0 +1,10 @@
+23/12/2017 11:08:15 LoggingDemo opening website
+23/12/2017 11:08:15 LoggingDemo entering weight
+23/12/2017 11:08:15 LoggingDemo selecting kilograms
+23/12/2017 11:08:15 LoggingDemo selecting height in feet
+23/12/2017 11:08:15 LoggingDemo selecting height in inches
+23/12/2017 11:08:15 LoggingDemo Clicking on calculate
+23/12/2017 11:08:15 LoggingDemo Getting SIUnit value
+23/12/2017 11:08:15 LoggingDemo Getting USUnit value
+23/12/2017 11:08:15 LoggingDemo Getting UKUnit value
+23/12/2017 11:08:15 LoggingDemo Getting overall description

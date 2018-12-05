@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="2" failures="0" finished="true" name="Test Run: 0" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="C:/Users/Shilpa/eclipse-workspace/testpython/firstpython/firstmodule.py" status="error" test="firstpython.firstmodule" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\common\service.py", line 74, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Python\Python36-32\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Python\Python36-32\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shilpa\.p2\pool\plugins\org.python.pydev_6.2.0.201711281614\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\firstmodule.py", line 10, in <module>
+    driver = webdriver.Chrome("c:\\chromedriver.exe")
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 68, in __init__
+    self.service.start()
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+ERROR: Module: firstpython.firstmodule could not be imported (file: C:/Users/Shilpa/eclipse-workspace/testpython/firstpython/firstmodule.py).
+]]></stderr>
+</test>
+<test location="C:/Users/Shilpa/eclipse-workspace/testpython/firstpython/secondmodule.py" status="error" test="firstpython.secondmodule" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\common\service.py", line 74, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Python\Python36-32\lib\subprocess.py", line 709, in __init__
+    restore_signals, start_new_session)
+  File "C:\Python\Python36-32\lib\subprocess.py", line 997, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Shilpa\.p2\pool\plugins\org.python.pydev_6.2.0.201711281614\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\secondmodule.py", line 9, in <module>
+    browser = webdriver.Chrome("c:\\chromedriver.exe")
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 68, in __init__
+    self.service.start()
+  File "C:\Python\Python36-32\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver.exe' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+ERROR: Module: firstpython.secondmodule could not be imported (file: C:/Users/Shilpa/eclipse-workspace/testpython/firstpython/secondmodule.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="testpython testpython"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

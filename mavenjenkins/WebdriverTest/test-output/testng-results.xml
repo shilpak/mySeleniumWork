@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13935" started-at="2018-08-23T21:56:29Z" finished-at="2018-08-23T21:56:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13935" started-at="2018-08-23T21:56:29Z" finished-at="2018-08-23T21:56:43Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="basePageInvocation()[pri:0, instance:Academy.validateTitle@11758f2a]" name="basePageInvocation" duration-ms="13875" started-at="2018-08-23T21:56:29Z" finished-at="2018-08-23T21:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageInvocation -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

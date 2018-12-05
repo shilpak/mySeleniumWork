@@ -1,0 +1,39 @@
+package example;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Test;
+
+
+
+import com.javafortesters.domainentities.User;
+
+
+
+//Create the List • Create two User objects • Add a User to the list • Add a User to the front of the list • Assert on the indexOf positions of the User objects • remove the first User object
+
+
+public class ExcerciseList {
+	
+	@Test
+	public void createAndManipulateAListOfUsers() {
+		
+		List <User> list = new ArrayList<>();
+		
+		User bob = new User("bob", "Passw0rd");
+		User eris = new User("eris","Cha0sTime");
+		
+		list.add(bob);
+		list.add(0, eris);
+		
+		System.out.println(list.size());
+		
+		for(User tableList : list) {
+			String e = tableList.toString();
+			System.out.println(e);
+		}
+		
+	}
+
+}

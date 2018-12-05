@@ -1,0 +1,67 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\Shilpa\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\testpython\com.python.pydev.analysis\v2_indexcache
+firstpython.firstmodule|1531329596906418000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\firstmodule.py
+firstpython.string|1519594139479761000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\string.py
+firstpython.secondmodule|1514305448180403000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\secondmodule.py
+firstpython.inoperator|1519661896844536000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\inoperator.py
+firstpython.__init__|1514240491152241000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\__init__.py
+firstpython.lists|1519593684410289000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\lists.py
+firstpython.strexcercise|1519594729616567000|C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\strexcercise.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+2=firstpython.string
+8=firstpython.firstmodule
+9=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\inoperator.py
+5=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\secondmodule.py
+3=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\lists.py
+1=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\string.py
+6=firstpython.secondmodule
+10=firstpython.inoperator
+11=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\strexcercise.py
+4=firstpython.lists
+12=firstpython.strexcercise
+7=C:\Users\Shilpa\eclipse-workspace\testpython\firstpython\firstmodule.py
+-- END DICTIONARY
+-- START TREE 1
+35
+afe|1|afewwords!1^70#1*19@
+age|1|age!3^39#1*35@
+all|1|all_numbers!3^31#5*35@
+ast|1|astring!1^57#1*19@
+bro|1|browser!5^9#1*51@
+cub|1|cubed!3^22#5*35@
+dat|2|data!3^43#1*35@data!1^53#1*19@
+dri|1|driver!7^10#1*67@
+ele|1|elem!7^13#1*67@
+eve|1|even_numbers!3^29#5*35@
+fir|1|first_array!9^13#1*83@
+for|2|format_string!3^44#1*35@format_string!1^54#1*19@
+hel|2|helloworld!1^31#1*19@hello!1^29#1*19@
+log|1|login_page!5^8#1*51@
+myf|1|myfloat!1^16#1*19@
+myi|1|myint!1^13#1*19@
+myl|1|mylist!3^7#1*35@
+mys|1|mystring!1^21#1*19@
+nam|2|name!9^6#1*83@name!3^38#1*35@
+num|1|number!9^11#1*83@
+odd|1|odd_numbers!3^30#5*35@
+one|1|one!1^24#1*19@
+pag|1|page_loaded!5^28#5*51@
+pas|1|password!5^13#1*51@
+pwd|1|pwd!7^9#1*67@
+s|1|s!11^6#1*99@
+sec|2|second_array!9^14#1*83@second_number!9^12#1*83@
+squ|1|squared!3^21#5*35@
+sub|1|submit!5^14#1*51@
+thr|1|three!1^26#1*19@
+two|1|two!1^25#1*19@
+use|2|username!5^12#1*51@user!7^8#1*67@
+wai|1|wait!5^23#1*51@
+wor|1|world!1^30#1*19@
+x|1|x!1^8#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,61 @@
+package Academy;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
+public class jsontest {
+	
+	public static void main(String[] args) {
+	    HttpURLConnection connection = null;
+		String inputLine;
+	    StringBuffer response = new StringBuffer();
+	        
+		try {
+			String targetURL = "https://ergast.com/api/f1/2017/circuits.json?fbclid=IwAR3qkINBfrElscGRkdXARgzpnhkFuW8pez0xUTxRrDkGk0goBkUNEkivEpo";
+			URL url = new URL(targetURL );
+			// Make connection
+			connection = (HttpURLConnection) url.openConnection();
+			// Set request type as HTTP GET
+			connection.setRequestMethod("GET");
+			connection.setRequestProperty("Content-Type","application/json");
+			connection.setUseCaches(false);
+			connection.setDoOutput(true);
+			if (connection.getResponseCode()==200) {
+				// get response stream
+				BufferedReader in = new BufferedReader(
+		                   new InputStreamReader(connection.getInputStream()));
+				// feed response into the StringBuilder
+				while ((inputLine = in.readLine()) != null) {
+		            response.append(inputLine);
+		        }
+		        in.close();
+		        // Start parsing
+		        JSONObject obj = new JSONObject(response.toString());
+		        // get Array type
+		        JSONArray results = obj.getJSONArray("results");
+		        // under results, get string type
+		        String jobtitle = results.getJSONObject(0).getString("jobtitle");
+		        // under results, get double type
+		        double lat = results.getJSONObject(0).getDouble("latitude");
+		        double lon = results.getJSONObject(0).getDouble("longitude");
+		        System.out.println(jobtitle+" coordinates: "
+	                ﻿+ lat + " , "+ lon);
+			}
+			else {
+				System.out.println("Can't get data");
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}
